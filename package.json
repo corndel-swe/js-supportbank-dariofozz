@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mocha": "^10.5.2"
+  },
+  "name": "js-supportbank-dariofozz",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <img width=\"200px\" src=\"docs/supportbank-logo.png\" alt=\"Supportbank Logo\" />\r </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
