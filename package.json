@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    
+    "commander": "^12.1.0"
   },
   "name": "js-supportbank-dariofozz",
   "version": "1.0.0",
@@ -12,7 +12,8 @@
     "test": "tests"
   },
   "devDependencies": {
-    "mocha": "^10.5.2"},
+    "mocha": "^10.5.2"
+  },
   "scripts": {
     "test": "mocha",
     "test:d1e1": "mocha ./tests/exercises/day-1-exercise-1.test.mjs",
