@@ -1,6 +1,5 @@
 // cli/index.js
 import { program } from 'commander'
-import 
 
 import transaction from './transaction.js'
 import billController from './bill.js'

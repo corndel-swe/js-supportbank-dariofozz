@@ -1,8 +1,9 @@
 // Exercise 1, Part 1
 // Add the `async` keyword to the function and `await` to the `toast` method.
-export function makeToast(bread, toaster) {
+export async function makeToast(bread, toaster) {
+  
   toaster.add(bread)
-  toaster.toast()
+  await toaster.toast()
   return toaster.pop()
 }
 
